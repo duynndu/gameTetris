@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url(wp4575207.jpg) no-repeat center/cover;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+}
+canvas{
+    position: absolute;
+    top: -119px;
+    outline: none;
+}
+.canvas{
+    background: url("./anh2.jpg");
+    position: relative;
+    overflow: hidden;
+    height: 600px;
+    width: 400px;
+    border: 5px solid darkblue;
+}
+h1{
+    font-family: sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 4px;
+
+}
+.score {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
